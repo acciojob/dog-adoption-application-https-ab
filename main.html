@@ -8,6 +8,31 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<form method="post">
+		<label for="name">Name</label>
+		<input type="text" id="name" placeholder="Name">
+
+		<label for="phone">Phone Number</label>
+		<input type="text" id="phone" placeholder="Phone Number">
+
+		<label for="address">Address</label>
+		<input type="text" id="address" placeholder="Address">
+
+		<div class="checkbox-group">
+		    <input type="checkbox" id="checkbox" name="checkbox" value="Have you ever lived with a Dog before?">
+		    <label for="checkbox" style="display: inline;">Have you ever lived with a Dog before?</label>
+	    </div>
+
+		<label for="multiSelect">Have you ever lived with a Dog before?</label>
+		<select id="multiSelect" name="multiSelect">
+			<option value="labrador">Labrador Retriever</option>
+			<option value="husky">Husky</option>
+			<option value="germanshepherd">German Shepherd</</option>
+			<option value="beagle">Beagle</option>
+		</select>
+
+		<button value="submit" id="submit" type="submit">Submit</button>
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
